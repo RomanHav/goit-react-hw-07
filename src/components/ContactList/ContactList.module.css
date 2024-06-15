@@ -2,10 +2,12 @@
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
   list-style-type: none;
 }
 .contactpart {
+  width: 280px;
   padding: 15px;
   border: 2px solid #fff;
   border-radius: 5px;

@@ -1,6 +1,6 @@
 import { Field, Form, Formik, ErrorMessage } from "formik";
 import { useId } from "react";
-import { addContact } from "../../redux/contactsSlice";
+import { addContact } from "../../redux/contactsOps.js";
 import * as Yup from "yup";
 import { useDispatch } from "react-redux";
 import css from "./ContactForm.module.css";
